@@ -11,5 +11,9 @@ class ClaseGas(ClaseCalefactor):
     
     def getMatricula(self):
         return self.__matricula
+    
+    def menorcosto(self,costo,cantidad):
+        total= (int(self.__calorias)/1000)*int(cantidad)*int(costo)
+        return int(total)
         
 
